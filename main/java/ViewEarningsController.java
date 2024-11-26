@@ -1,0 +1,2 @@
+public class ViewEarningsController {
+}
