@@ -1,0 +1,2 @@
+public class RatingSystemController {
+}
