@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.uber.ViewEarnings"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.uber.ViewEarnings">
+   <children>
+      <Label layoutX="289.0" layoutY="21.0" text="View Earnings" />
+      <TableView layoutX="160.0" layoutY="66.0" prefHeight="285.0" prefWidth="365.0">
+        <columns>
+          <TableColumn fx:id="dateColumn" prefWidth="102.4000244140625" text="Date" />
+          <TableColumn fx:id="amountColumn" prefWidth="143.20001220703125" text="Amount" />
+            <TableColumn fx:id="descriptionColumn" prefWidth="119.20001220703125" text="Description" />
+        </columns>
+      </TableView>
+   </children>
 </AnchorPane>

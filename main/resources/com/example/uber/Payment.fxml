@@ -5,11 +5,10 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.uber.Payment">
    <children>
       <Label layoutX="277.0" layoutY="23.0" lineSpacing="10.0" text="Payment" textAlignment="CENTER" />
-      <ComboBox layoutX="234.0" layoutY="74.0" prefWidth="150.0" />
-      <Button layoutX="255.0" layoutY="113.0" mnemonicParsing="false" text="Confirm Payment" />
+      <ComboBox fx:id="paymentMethodComboBox" layoutX="234.0" layoutY="74.0" prefWidth="150.0" />
+      <Button layoutX="255.0" layoutY="113.0" mnemonicParsing="false" onAction="#confirmPayment" text="Confirm Payment" />
    </children>
 </AnchorPane>

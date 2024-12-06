@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.uber.EndRide"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.uber.EndRide">
+   <children>
+      <Label layoutX="265.0" layoutY="25.0" text="End The Ride" />
+      <Button layoutX="268.0" layoutY="56.0" mnemonicParsing="false" onAction="#endRide" text="End Ride" />
+      <Label fx:id="fareCalculationLabel" layoutX="342.0" layoutY="107.0" text="Fare Calculation" />
+      <Label fx:id="tripCompletionLabel" layoutX="179.0" layoutY="107.0" text="Trip Completion" />
+   </children>
 </AnchorPane>
