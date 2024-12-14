@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="786.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="CollectFeedbackonRideExperience" layoutY="24.0" text="Collect Feedback on Ride Experience" />
+      <VBox layoutX="18.0" layoutY="56.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="DesignFeedbackForms" prefHeight="24.0" prefWidth="32.0" text="Design Feedback Forms" />
+            <Label fx:id="DistributeFeedbackFormstoRiders" prefHeight="36.0" prefWidth="43.0" text="Distribute Feedback Forms to Riders" />
+            <Label fx:id="AnalyzeFeedbackData" prefHeight="23.0" prefWidth="32.0" text="Analyze Feedback Data" />
+         </children>
+      </VBox>
+      <Label layoutX="244.0" layoutY="24.0" text="Collect Feedback on Driver Behavior, Cleanliness &amp; Punctuality" />
+      <VBox layoutX="259.0" layoutY="49.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="DevelopDriverBehaviorSurvey" prefHeight="25.0" prefWidth="34.0" text="Develop Driver Behavior Survey" />
+            <Label fx:id="ImplementCleanlinessandPunctualityMetrics" prefHeight="30.0" prefWidth="41.0" text="Implement Cleanliness and Punctuality Metrics" />
+            <Label fx:id="CompileandReviewFeedback" prefHeight="24.0" prefWidth="36.0" text="Compile and Review Feedback" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="191.0" prefWidth="943.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="workwithothercompaniestogrowfaster" layoutX="20.0" layoutY="14.0" text="work with other companies to grow faster" />
+      <VBox layoutX="20.0" layoutY="48.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="identifypotentialcompaniesforpartnerships" prefHeight="30.0" prefWidth="42.0" text="identify potential companies for partnerships" />
+            <Label fx:id="developcollaborativeproposals" prefHeight="21.0" prefWidth="36.0" text="develop collaborative proposals" />
+            <Label fx:id="establishpartnershipagreements" prefHeight="26.0" prefWidth="35.0" text="establish partnership agreements" />
+         </children>
+      </VBox>
+      <Label fx:id="partnerwithlocalbusinessestooffereasypaymentsandpromotions" layoutX="272.0" layoutY="14.0" text="partner with local businesses to offer easy payments &amp; promotions" />
+      <VBox layoutX="272.0" layoutY="48.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="identifylocalbusinesses" text="identify local businesses" />
+            <Label fx:id="negotiatepaymentsolutions" text="negotiate payment solutions" />
+            <Label fx:id="launchjointpromotions" prefHeight="26.0" prefWidth="37.0" text="launch joint promotions" />
+         </children>
+      </VBox>
+      <Label fx:id="partnerwithdigitalwalletsandtelecomcompanies" layoutX="666.0" layoutY="14.0" text="partner with digital wallets &amp; telecom companies" />
+      <VBox layoutX="666.0" layoutY="48.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="identifydigitalwalletandtelecompartners" prefHeight="28.0" prefWidth="39.0" text="identify digital wallet &amp; telecom partners" />
+            <Label fx:id="integratepaymentsystems" prefHeight="30.0" prefWidth="42.0" text="integrate payment systems" />
+            <Label fx:id="promotecollaborativeoffers" prefHeight="28.0" prefWidth="41.0" text="promote collaborative offers" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

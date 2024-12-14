@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="EnsureShortWaitTimesandFairPrices" layoutX="80.0" layoutY="31.0" text="EnsureShortWaitTimes&amp;FairPrices" />
+      <VBox layoutX="14.0" layoutY="62.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="OptimizeDriverDispatchSystem" text="Optimize Driver Dispatch System" />
+            <Label fx:id="MonitorandAdjustPricingStrategies" prefHeight="36.0" prefWidth="42.0" text="Monitor and Adjust Pricing Strategies" />
+            <Label fx:id="UseRealTimeDataforEfficientRouting" text="Use Real-Time Data for Efficient Routing" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

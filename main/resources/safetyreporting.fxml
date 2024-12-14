@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="ReportSafetyConcernsDuringtheRide" layoutX="14.0" layoutY="27.0" text="Report Safety Concerns During the Ride" />
+      <Label fx:id="ReportSafetyConcernsAftertheRideRoadConditions" layoutX="286.0" layoutY="27.0" text="Report Safety Concerns After the Ride (e.g., Road Conditions)" />
+      <VBox layoutX="14.0" layoutY="54.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="ImplementInAppReportingFeature" prefHeight="26.0" prefWidth="38.0" text="Implement In-App Reporting Feature" />
+            <Label fx:id="RealTimeNotificationtoSupportTeam" prefHeight="26.0" prefWidth="36.0" text="Real-Time Notification to Support Team" />
+            <Label fx:id="EnsureImmediateResponseMechanism" prefHeight="23.0" prefWidth="35.0" text="Ensure Immediate Response Mechanism" />
+         </children>
+      </VBox>
+      <VBox layoutX="286.0" layoutY="54.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="DesignPostRideFeedbackForms" prefHeight="32.0" prefWidth="40.0" text="Design Post-Ride Feedback Forms" />
+            <Label fx:id="CollectDataonReportedIssues" prefHeight="22.0" prefWidth="34.0" text="Collect Data on Reported Issues" />
+            <Label fx:id="AnalyzeandTakeActiononReports" prefHeight="24.0" prefWidth="34.0" text="Analyze and Take Action on Reports" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

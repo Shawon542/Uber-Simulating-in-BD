@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="407.0" prefWidth="621.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="targeturbancenters" layoutX="23.0" layoutY="25.0" text="target urban centers">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <VBox layoutX="13.0" layoutY="66.0" prefHeight="118.0" prefWidth="88.0">
+         <children>
+            <Label fx:id="conductmarketresearch" prefHeight="34.0" prefWidth="62.0" text="conduct market research" />
+            <Label fx:id="establishlocalpartnerships" prefHeight="23.0" prefWidth="42.0" text="establish local partnerships" />
+            <Label fx:id="organizepromotionalevents" prefHeight="26.0" prefWidth="34.0" text="organize promotional events" />
+         </children>
+      </VBox>
+      <Label fx:id="makepeopleknowabouttheservice" layoutX="181.0" layoutY="27.0" text="make people know about the service" />
+      <VBox layoutX="181.0" layoutY="66.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="developbrandmessage" prefHeight="26.0" prefWidth="46.0" text="develop brand message" />
+            <Label fx:id="createengagingcontent" prefHeight="24.0" prefWidth="33.0" text="create engaging content" />
+            <Label fx:id="launchcommunityengagementactivities" prefHeight="26.0" prefWidth="34.0" text="launch community engagement activities" />
+         </children>
+      </VBox>
+      <Label fx:id="advertiseonsocialmediatvradio" layoutX="424.0" layoutY="27.0" text="advertise on social media,tv,radio" />
+      <VBox layoutX="424.0" layoutY="54.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="designandproduceadvertisements" prefHeight="28.0" prefWidth="44.0" text="design &amp; produce adertisements" />
+            <Label fx:id="planandscheduleadplacements" prefHeight="26.0" prefWidth="38.0" text="plan &amp; schedule AD placements" />
+            <Label fx:id="monitoradvertisingcampaigns" prefHeight="26.0" prefWidth="38.0" text="monitor advertising campaigns" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

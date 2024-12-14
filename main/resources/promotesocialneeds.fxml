@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="691.0" prefWidth="839.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="showthatthecompanycareaboutthecompany" layoutX="60.0" layoutY="21.0" text="show that the company care about the company" />
+      <VBox layoutX="24.0" layoutY="60.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="EngageinCommunityEvents" prefHeight="27.0" prefWidth="40.0" text="Engage in Community Events" />
+            <Label fx:id="SupportLocalCharities" prefHeight="23.0" prefWidth="36.0" text="Support Local Charities" />
+            <Label fx:id="ProvideCommunityServices" prefHeight="27.0" prefWidth="38.0" text="Provide Community Services" />
+         </children>
+      </VBox>
+      <Label fx:id="RunCampaignsforRoadSafety" layoutX="356.0" layoutY="21.0" prefHeight="27.0" prefWidth="36.0" text="Run Campaigns for Road Safety" />
+      <VBox layoutX="342.0" layoutY="48.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="CreateRoadSafetyAwarenessPrograms" prefHeight="33.0" prefWidth="48.0" text="Create Road Safety Awareness Programs" />
+            <Label fx:id="DistributeEducationalMaterials" prefHeight="24.0" prefWidth="41.0" text="Distribute Educational Materials" />
+            <Label fx:id="PartnerwithTrafficAuthorities" prefHeight="28.0" prefWidth="37.0" text="Partner with Traffic Authorities" />
+         </children>
+      </VBox>
+      <Label fx:id="PromoteEcoFriendlyVehicles" layoutX="456.0" layoutY="26.0" text="Promote Eco-Friendly Vehicles" />
+      <VBox layoutX="456.0" layoutY="60.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="IntroduceEcoFriendlyVehicleOptions" prefHeight="27.0" prefWidth="37.0" text="Introduce Eco-Friendly Vehicle Options" />
+            <Label fx:id="OfferIncentivesforEcoFriendlyChoices" prefHeight="26.0" prefWidth="43.0" text="Offer Incentives for Eco-Friendly Choices" />
+            <Label fx:id="RaiseAwarenessAboutEnvironmentalBenefits" prefHeight="31.0" prefWidth="41.0" text="Raise Awareness About Environmental Benefits" />
+         </children>
+      </VBox>
+      <Label fx:id="SupportDriverswithFairWages" layoutX="676.0" layoutY="26.0" text="Support Drivers with Fair Wages" />
+      <VBox layoutX="661.0" layoutY="60.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="SetFairWageStandards" prefHeight="34.0" prefWidth="58.0" text="Set Fair Wage Standards" />
+            <Label fx:id="MonitorandAdjustWagePolicies" prefHeight="23.0" prefWidth="35.0" text="Monitor and Adjust Wage Policies" />
+            <Label fx:id="ProvideFinancialSupportandBenefits" prefHeight="27.0" prefWidth="40.0" text="Provide Financial Support and Benefits" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

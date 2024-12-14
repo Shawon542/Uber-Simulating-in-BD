@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="416.0" prefWidth="633.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="KeepUsersInteractingwiththeApp" layoutX="14.0" layoutY="23.0" text="Keep Users Interacting with the App" />
+      <VBox layoutX="23.0" layoutY="52.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="IntroduceInteractiveChallenges" text="Introduce Interactive Challenges" />
+            <Label fx:id="SendPersonalizedNotifications" prefHeight="23.0" prefWidth="46.0" text="Send Personalized Notifications" />
+            <Label fx:id="ImplementRewardsSystem" prefHeight="28.0" prefWidth="34.0" text="Implement Rewards System" />
+         </children>
+      </VBox>
+      <Label fx:id="FunFeaturesLikeFairSplittingorOfferDealswithLocalBusinesses" layoutX="255.0" layoutY="23.0" text="Fun Features Like Fair-Splitting or Offer Deals with Local Businesses" />
+      <VBox layoutX="233.0" layoutY="52.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="DevelopFairSplittingFeature" prefHeight="26.0" prefWidth="37.0" text="Develop Fair-Splitting Feature" />
+            <Label fx:id="IntegrateOfferswithLocalBusinesses" prefHeight="23.0" prefWidth="38.0" text="Integrate Offers with Local Businesses" />
+            <Label fx:id="PromoteFunFeaturesviaAppNotifications" prefHeight="25.0" prefWidth="38.0" text="Promote Fun Features via App Notifications" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

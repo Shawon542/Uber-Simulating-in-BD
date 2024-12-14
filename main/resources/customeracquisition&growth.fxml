@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="firstridediscountsforearlyadopters" layoutX="40.0" layoutY="21.0" text="first ride discounts for early adopters" />
+      <VBox layoutX="14.0" layoutY="58.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="identifytargetcustomersegment" prefHeight="27.0" prefWidth="41.0" text="identify target customer segment" />
+                  <Label fx:id="creatediscountoffers" prefHeight="35.0" prefWidth="46.0" text="create discount offers" />
+                  <Label fx:id="communicateofferstopotentialcustomers" prefHeight="31.0" prefWidth="43.0" text="communicate offers to potential customers" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+      <Label layoutX="286.0" layoutY="21.0" prefHeight="27.0" prefWidth="42.0" text="exclusive offers for early adopters" />
+      <VBox layoutX="257.0" layoutY="48.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="designexclusiveoffers" prefHeight="28.0" prefWidth="38.0" text="design exclusive offers" />
+            <Label fx:id="promoteoffersviaemailsms" prefHeight="37.0" prefWidth="51.0" text="promote offers via email &amp; sms" />
+            <Label fx:id="monitoruptakeandfeedback" prefHeight="30.0" prefWidth="46.0" text="monitor uptake &amp; feedback" />
+         </children>
+      </VBox>
+      <Label fx:id="collaboratewithinfluencersandlocalcelebrities" layoutX="398.0" layoutY="21.0" prefHeight="27.0" prefWidth="67.0" text="collaborate with influencers &amp; local celebrities" />
+      <VBox layoutX="391.0" layoutY="58.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="identifypotentialcollaborators" prefHeight="31.0" prefWidth="46.0" text="identify potential collaborators" />
+            <Label fx:id="reachoutandnegotiatepartnerships" prefHeight="27.0" prefWidth="36.0" text="reach out &amp; negotiate partnerships" />
+            <Label fx:id="laumchcollaborativecampaigns" prefHeight="30.0" prefWidth="48.0" text="launch collaborative campaigns" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

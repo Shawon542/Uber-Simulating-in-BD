@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="usebengalilanguageoptions" layoutX="60.0" layoutY="20.0" text="use bengali language options" />
+      <VBox layoutX="10.0" layoutY="44.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="implementbengalilanguageinUI" prefHeight="33.0" prefWidth="44.0" text="implement bengali language in UI" />
+            <Label fx:id="translatekeytextandmessages" prefHeight="25.0" prefWidth="34.0" text="translate key texts &amp; messages" />
+            <Label fx:id="textUIwithbengaliusers" prefHeight="23.0" prefWidth="33.0" text="text UI with bengali users" />
+         </children>
+      </VBox>
+      <Label fx:id="acceptlocalpaymentsystems" layoutX="260.0" layoutY="20.0" prefHeight="26.0" prefWidth="34.0" text="accept local payment systems(bkash,nogod)" />
+      <VBox layoutX="227.0" layoutY="46.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="integratebkashpaymentsystem" prefHeight="23.0" prefWidth="33.0" text="integrate bkash payment system" />
+            <Label fx:id="integratenogodpaymentsystem" text="integrate nogod payment system" />
+            <Label fx:id="testpaymentintegration" prefHeight="26.0" prefWidth="35.0" text="test payment integration" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
