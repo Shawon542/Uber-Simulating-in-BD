@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DriverDashboard">
+   <children>
+      <VBox layoutX="14.0" layoutY="50.0" prefHeight="282.0" prefWidth="100.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#showRegisterDriver" prefHeight="34.0" prefWidth="94.0" text="Register" />
+            <Button mnemonicParsing="false" onAction="#showAcceptRide" prefHeight="40.0" prefWidth="96.0" text="Accept Ride" />
+            <Button mnemonicParsing="false" onAction="#showViewEarnings" prefHeight="35.0" prefWidth="97.0" text="View Earnings" />
+            <Button mnemonicParsing="false" onAction="#showRatePassenger" prefHeight="42.0" prefWidth="98.0" text="Rate Passenger" />
+            <Button mnemonicParsing="false" onAction="#showViewHistory" prefHeight="46.0" prefWidth="100.0" text="View History" />
+            <Button mnemonicParsing="false" onAction="#showStartRide" prefHeight="42.0" prefWidth="101.0" text="Start Ride" />
+            <Button mnemonicParsing="false" onAction="#showEndRide" prefHeight="38.0" prefWidth="102.0" text="End Ride" />
+         </children>
+      </VBox>
+      <Label layoutX="193.0" layoutY="14.0" text="Driver Dashboard.">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <StackPane fx:id="mainContentPane" layoutX="193.0" layoutY="90.0" prefHeight="150.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
